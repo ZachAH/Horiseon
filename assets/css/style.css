@@ -79,12 +79,14 @@ p {
     margin-left: 25px;
 }
 
+/*all block level elements in content class will appear in line with one another with the margins adjusted and the width of the element also adjusted*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*all block level elements in benifits class have margins and padding inside of border increased along with font text and background color and the max height and width adjusted*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -96,20 +98,12 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
+/*condesned css to include all the inline block elements with the same css properties with margin bottom and the text color*/
+.benefit-lead, .benefit-brand, .benefit-cost  {
+                                        margin-bottom: 32px;
+                                        color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
 .benefit-lead h3 {
     margin-bottom: 10px;
