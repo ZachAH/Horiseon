@@ -57,6 +57,7 @@ p {
     font-size: 16px;
 }
 
+/* changes height width adds image positions and sizes image for block level elements in hero class*/
 .hero {
     height: 800px;
     width: 100%;
@@ -66,11 +67,13 @@ p {
     background-position: center;
 }
 
+/*images in class float left will apear to left with the right margins increased*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*images in class float right will appear to the right with the left margins increased*/
 .float-right {
     float: right;
     margin-left: 25px;
