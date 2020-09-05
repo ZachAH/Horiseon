@@ -1,3 +1,4 @@
+/*universal selector will apply to all elements*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -139,6 +140,7 @@ p {
     font-size: 36px;
 }
 
+/*adds footer padding font family and aligns the text to center and wont allow any elements to float on either side*/
 .footer {
     padding: 30px;
     clear: both;
@@ -146,6 +148,7 @@ p {
     text-align: center;
 }
 
+/*adjusts font size for block level element h2*/
 .footer h2 {
     font-size: 20px;
 }
