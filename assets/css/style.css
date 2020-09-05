@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-/* changes the background color of the body section*/
+/* changes the background color of the block level elements body section*/
 body {
     background-color: #d9dcd6;
 }
@@ -15,15 +15,18 @@ body {
     color: #ffffff;
 }
 
+/*block level header and h1 elements will be inline and the font size is increased*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*changes color of seo text*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* adds padding margins font and font size to all the block level elements under header div*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,20 +35,24 @@ body {
     font-size: 20px;
 }
 
+/*block level elements under these tags will not have any change to their style types no bullet points or numbers*/
 .header div ul {
     list-style-type: none;
 }
 
+/* the text under these  block level elements will all display in a line horizontally*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* font color and there will be no lines going through or over and under all the text with the inline element a tag*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*font size of all block level elements labeled p changed*/
 p {
     font-size: 16px;
 }
