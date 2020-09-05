@@ -98,41 +98,21 @@ p {
     background-color: #2589bd;
 }
 
-/*condesned css to include all the inline block elements with the same css properties with margin bottom and the text color*/
+/*condesned css to include all the inline block elements with the same css properties with margin bottom and color*/
 .benefit-lead, .benefit-brand, .benefit-cost  {
                                         margin-bottom: 32px;
                                         color: #ffffff;
 }
 
 
-.benefit-lead h3 {
+/*condensed all inline block elements with the same css elements*/
+.benefit-lead h3, .benefit-cost h3, .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+/*condensed all images with the same css properties*/
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
